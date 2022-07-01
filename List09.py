@@ -6,4 +6,8 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    x = list1.count(list1[0])
+    return x == len(list1)
+
+
+print(main([0, 0, 0, 0, 1]))
